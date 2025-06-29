@@ -55,10 +55,10 @@ const Navbar = () => {
       {menuOpen && (
         <div className="md:hidden bg-slate-800 px-6 pb-4">
           <ul className="flex flex-col space-y-4 text-lg mt-4">
-            <li className="hover:text-blue-400 cursor-pointer">Home</li>
-            <li className="hover:text-blue-400 cursor-pointer">Projects</li>
-            <li className="hover:text-blue-400 cursor-pointer">About</li>
-            <li className="hover:text-blue-400 cursor-pointer">Contact</li>
+            <li><Link className="hover:text-blue-400 cursor-pointer" to="/">Home</Link></li>
+          <li className="hover:text-blue-400 cursor-pointer"><Link to="/services">Services</Link></li>
+          <li className="hover:text-blue-400 cursor-pointer"><Link to="/about">About</Link></li>
+          <li className="hover:text-blue-400 cursor-pointer"><Link to="/contact">Contact</Link></li>
             <div className="flex space-x-4 text-blue-400 pt-2">
               <a href="#">
                 <FaGithub size={20} className="hover:text-yellow-400" />
