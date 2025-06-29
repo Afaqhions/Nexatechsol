@@ -73,14 +73,14 @@ const Careers = () => {
           <p className="text-gray-300 mb-4">
             Send us your resume at{" "}
             <a
-              href="mailto:careers@nexatechsol.com"
+              href="mailto:nexatechsol@gmail.com"
               className="text-blue-400 hover:text-yellow-400 underline"
             >
-              careers@nexatechsol.com
+              nexatechsol@gmail.com
             </a>
           </p>
           <a
-            href="mailto:careers@nexatechsol.com"
+            href="mailto:nexatechsol@gmail.com"
             className="inline-block px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-lg"
           >
             Submit Resume
