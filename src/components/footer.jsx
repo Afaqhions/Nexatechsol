@@ -47,6 +47,7 @@ const Footer = () => {
       {/* Bottom bar */}
       <div className="mt-8 border-t border-slate-700 pt-4 text-center text-sm text-gray-500">
         © {new Date().getFullYear()} Nexatechsol. All rights reserved.
+        Designed & Developed By-Almaco +92-309-7876497 
       </div>
     </footer>
   );
