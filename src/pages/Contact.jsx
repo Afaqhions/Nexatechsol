@@ -21,7 +21,7 @@ const Contact = () => {
             className="bg-slate-800 p-8 rounded-xl shadow-md border border-slate-700 w-full"
           >
             {/* Web3Forms Hidden Inputs */}
-            <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
+            <input type="hidden" name="access_key" value="a66b576e-4f4d-485b-a10a-2412f72e0a85" />
             <input type="hidden" name="subject" value="New Message from Nexatechsol Website" />
             <input type="hidden" name="from_name" value="Nexatechsol Website" />
             <input type="checkbox" name="botcheck" className="hidden" style={{ display: "none" }} />
@@ -79,14 +79,14 @@ const Contact = () => {
               <li>
                 📧 Email:{" "}
                 <a
-                  href="mailto:info@nexatechsol.com"
+                  href="mailto:nexatechsol@gmail.com"
                   className="text-blue-400 hover:text-yellow-400"
                 >
-                  info@nexatechsol.com
+                  nexatechsol@gmail.com
                 </a>
               </li>
               <li>
-                📞 Phone: <span className="text-gray-300">+92-XXX-XXXXXXX</span>
+                📞 Phone: <span className="text-gray-300">+92 323 6148322</span>
               </li>
             </ul>
 
