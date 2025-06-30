@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 const jobOpenings = [
   {
     title: "Frontend Developer",
@@ -60,7 +61,7 @@ const Careers = () => {
               </p>
               <p className="text-gray-300 mt-4 text-sm">{job.description}</p>
               <button className="mt-6 px-4 py-2 bg-yellow-500 hover:bg-yellow-600 text-slate-900 font-semibold rounded-lg transition">
-                Apply Now
+                <Link to="/contact">Apply Now</Link>
               </button>
             </div>
           ))}
@@ -72,14 +73,14 @@ const Careers = () => {
           <p className="text-gray-300 mb-4">
             Send us your resume at{" "}
             <a
-              href="mailto:careers@nexatechsol.com"
+              href="mailto:nexatechsol@gmail.com"
               className="text-blue-400 hover:text-yellow-400 underline"
             >
-              careers@nexatechsol.com
+              nexatechsol@gmail.com
             </a>
           </p>
           <a
-            href="mailto:careers@nexatechsol.com"
+            href="mailto:nexatechsol@gmail.com"
             className="inline-block px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-lg"
           >
             Submit Resume

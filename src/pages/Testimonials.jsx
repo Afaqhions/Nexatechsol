@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const testimonials = [
   {
     name: "Sarah Khan",
@@ -55,12 +55,12 @@ const Testimonials = () => {
           <p className="text-gray-400 mt-2">
             We’d love to hear from you. Your feedback helps us grow!
           </p>
-          <a
-            href="/contact"
+          <Link
+            to="/contact"
             className="inline-block mt-4 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-lg"
           >
             Contact Us
-          </a>
+          </Link>
         </div>
       </div>
     </div>
