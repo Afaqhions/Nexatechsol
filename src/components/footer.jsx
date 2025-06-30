@@ -47,7 +47,7 @@ const Footer = () => {
       {/* Bottom bar */}
       <div className="mt-8 flex-col border-t border-slate-700 pt-4 text-center text-sm text-gray-500">
         <p>© {new Date().getFullYear()} Nexatechsol. All rights reserved.</p>
-       <p>Designed & Developed By-Almaco +92-309-7876497</p> 
+       <p>Designed & Developed By-Almaco +92 309 7876497</p> 
       </div>
     </footer>
   );
