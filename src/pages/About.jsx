@@ -63,8 +63,7 @@ const About = () => {
               Our Mission
             </h2>
             <p className="text-sm text-gray-400">
-              At NexaTechSol, we specialize in delivering tailored technology solutions that address the dynamic needs of modern businesses.
-Our mission is to bridge the gap between business challenges and technological advancements, empowering organizations through cutting-edge software, IT services, and digital transformation strategies. To empower businesses by developing cutting-edge digital solutions
+              At NexaTechSol, our mission is to empower businesses and individuals through cutting-edge IT solutions, expert consultancy, and high-quality training. We are committed to delivering innovative software and e-commerce services that drive growth, efficiency, and digital transformation for our clients worldwide. To empower businesses by developing cutting-edge digital solutions
               that solve real-world problems, enhance productivity, and drive
               success. 
             </p>
