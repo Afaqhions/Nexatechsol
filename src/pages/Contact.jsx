@@ -94,9 +94,9 @@ const Contact = () => {
             <div className="mb-6">
               <h3 className="text-lg font-semibold text-blue-400 mb-2">Office Address</h3>
               <p className="text-sm text-gray-400">
-                Nexatechsol Pvt. Ltd.<br />
-                3rd Floor, TechHub Plaza,<br />
-                Shahrah-e-Faisal, Karachi,<br />
+                Nexatechsol<br />
+                NexaTechSol, 2nd floor,<br />
+                adjacent HBL bank, Paragon City, Lahore.<br />
                 Pakistan - 75400
               </p>
             </div>
@@ -104,7 +104,7 @@ const Contact = () => {
             {/* Google Map */}
             <iframe
               title="Nexatechsol Location"
-              src="https://maps.google.com/maps?q=Shahrah-e-Faisal%2C%20Karachi&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              src="https://maps.app.goo.gl/K1w9Hx3d1edMqfmR9"
               className="w-full h-56 border border-slate-600 rounded-lg"
               allowFullScreen
               loading="lazy"

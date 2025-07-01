@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram, FaFacebook } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram, FaFacebook, FaTiktok, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -11,7 +11,7 @@ const Footer = () => {
             Nexa<span className="text-yellow-400">TechSol</span>
           </h2>
           <p className="text-sm text-gray-400 mt-2">
-            Empowering solutions through innovation.
+            Innovating Tomoorrow Today
           </p>
         </div>
 
@@ -38,9 +38,11 @@ const Footer = () => {
           </ul>
           <div className="flex gap-4 mt-4 text-blue-400">
             <a href="#"><FaGithub className="hover:text-yellow-400" size={20} /></a>
-            <a href="#"><FaLinkedin className="hover:text-yellow-400" size={20} /></a>
-            <a href="#"><FaInstagram className="hover:text-yellow-400" size={20} /></a>
-            <a href="#"><FaFacebook className="hover:text-yellow-400" size={20} /></a>
+            <a href="https://www.linkedin.com/in/nexatechsol/"><FaLinkedin className="hover:text-yellow-400" size={20} /></a>
+            <a href="https://www.instagram.com/nexatechsolofficial/"><FaInstagram className="hover:text-yellow-400" size={20} /></a>
+            <a href="https://www.facebook.com/nexatechsolofficial/"><FaFacebook className="hover:text-yellow-400" size={20} /></a>
+            <a href="https://www.tiktok.com/@nexatechsol6?lang=en"><FaTiktok className="hover:text-yellow-400" size={20} /></a>
+            <a href="https://www.youtube.com/@nexatechsol"><FaYoutube className="hover:text-yellow-400" size={20} /></a>
             <a href="mailto:nexatechsol@gmail.com"><FaEnvelope className="hover:text-yellow-400" size={20} /></a>
           </div>
         </div>

@@ -47,14 +47,14 @@ const Navbar = () => {
         {/* Social Icons */}
         <div className="hidden md:flex items-center space-x-4 text-blue-400">
           <a
-            href="https://github.com"
+            href=""
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaGithub size={20} className="hover:text-yellow-400" />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/nexatechsol/"
             target="_blank"
             rel="noopener noreferrer"
           >

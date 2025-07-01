@@ -17,9 +17,9 @@ const services = [
       "Engaging, intuitive user interfaces and seamless user experiences that elevate your brand identity.",
   },
   {
-    title: "Cloud & DevOps",
+    title: "Traing & Coursess",
     description:
-      "Scalable infrastructure and continuous deployment pipelines using modern cloud and DevOps technologies.",
+      "We provide industry-focused training and certification courses tailored to current market needs. From technical skills to soft skills, our programs ensure practical and career-oriented learning. Join us to upgrade your expertise and stay ahead in your profession.",
   },
   {
     title: "E-Commerce Solutions",
@@ -39,10 +39,12 @@ const Services = () => {
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-yellow-400 mb-4">Our Services</h1>
+          <h1 className="text-4xl font-bold text-yellow-400 mb-4">
+            Our Services
+          </h1>
           <p className="text-blue-400 max-w-2xl mx-auto">
-            At Nexatechsol, we offer a wide range of innovative and tailored services
-            to support your business growth in the digital age.
+            At Nexatechsol, we offer a wide range of innovative and tailored
+            services to support your business growth in the digital age.
           </p>
         </div>
 
@@ -53,7 +55,9 @@ const Services = () => {
               key={index}
               className="bg-slate-800 p-6 rounded-xl border border-slate-700 shadow-md hover:shadow-blue-900 transition"
             >
-              <h3 className="text-xl font-semibold text-blue-400 mb-2">{service.title}</h3>
+              <h3 className="text-xl font-semibold text-blue-400 mb-2">
+                {service.title}
+              </h3>
               <p className="text-sm text-gray-400">{service.description}</p>
             </div>
           ))}
