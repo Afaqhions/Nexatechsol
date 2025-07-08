@@ -95,9 +95,6 @@ Our mission is to bridge the gap between business challenges and technological a
               <h3 className="text-lg font-semibold text-blue-400 text-center">
                 Eng. M Afaq Ahmad
               </h3>
-              <h3 className="text-lg font-semibold text-blue-400 text-center">
-                Team Member
-              </h3>
               <p className="text-sm text-gray-400 text-center">
                 Project Manager
               </p>
@@ -107,9 +104,7 @@ Our mission is to bridge the gap between business challenges and technological a
               <h3 className="text-lg font-semibold text-blue-400 text-center">
                 Zeeshan Haider
               </h3>
-              <h3 className="text-lg font-semibold text-blue-400 text-center">
-                Team Member
-              </h3>
+              
               <p className="text-sm text-gray-400 text-center">
                 CEO & Founder
               </p>
@@ -120,9 +115,7 @@ Our mission is to bridge the gap between business challenges and technological a
               <h3 className="text-lg font-semibold text-blue-400 text-center">
                 Mrs. Haider
               </h3>
-              <h3 className="text-lg font-semibold text-blue-400 text-center">
-                Team Member
-              </h3>
+              
               <p className="text-sm text-gray-400 text-center">
                 Director
               </p>
